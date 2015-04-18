@@ -1,0 +1,403 @@
+/* =========== TOP SECTION =========== */
+
+#top-space {
+	padding-bottom: 186px;
+}
+
+#top-nav	{
+	position: fixed;
+	top: 0;
+	height: 185px;
+	width: 100%;
+	z-index: 30;
+	background-color: #fff;
+	border-bottom: 1px solid #c5c5c5;
+	/* min-width: 360px; */
+}
+
+#tip-top-container	{
+	width: 100%;
+	background-color: #ebebeb;
+}
+
+#tip-top-content	{
+	margin: 0 auto;
+	width: 1000px;
+	color: #636363;
+	text-align: right;
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 16px;
+	padding: 8px 0;
+}
+
+#tip-top-content a 	{
+	color: #636363;
+	text-decoration: none;
+}
+
+#tip-top-content span + span {
+	display: none;
+}
+
+#tip-top-content a:hover 	{
+	color: #5a2b81;
+	text-decoration: underline;
+}
+
+#top-content	{
+	margin: 0 auto;
+	width: 1000px;
+	height: 152px;
+	position: relative;
+	z-index: 30;
+}
+
+/* 
+#top-content ul.megamenu	{
+	list-style: none;
+	display: inline;
+	position: relative;
+	margin: 0;
+	letter-spacing: 0;
+}
+
+#top-content ul.megamenu li	{
+	float: right;
+	font-family: AvenirNextLTPro-Regular;
+}
+
+#top-content ul.megamenu li a	{
+	display: block;
+	text-decoration: none;
+	margin-right: 0;
+}
+
+#top-content ul.megamenu li a span	{
+	color: #fff;
+}
+
+#top-content ul.megamenu li a:hover span	{
+	color: #e6cd45;
+}
+
+#top-content ul.megamenu li .current a span {
+	color: #e6cd45;
+}
+
+#top-content ul.megamenu li #aboutmsmc-tab.current	{
+	background-image: url(../graphics/backgrounds/aboutmsmc-tab.png);
+	background-repeat: no-repeat;
+}
+
+#top-content ul.megamenu li #academics-tab.current	{
+	background-image: url(../graphics/backgrounds/academics-tab.png);
+	background-repeat: no-repeat;
+}
+
+#top-content ul.megamenu li #admission-tab.current	{
+	background-image: url(../graphics/backgrounds/admission-tab.png);
+	background-repeat: no-repeat;
+}
+
+#top-content ul	li #studentlife-tab.current	{
+	background-image: url(../graphics/backgrounds/studentlife-tab.png);
+	background-repeat: no-repeat;
+}
+
+#top-content ul.megamenu li #resourcesculture-tab.current	{
+	background-image: url(../graphics/backgrounds/resourcesculture-tab.png);
+	background-repeat: no-repeat;
+}
+
+
+.current span {
+  color: #e6cd45 !important;
+}
+
+.logo-clear	{
+	background: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+ */
+#top-logo {
+	float: left;
+	margin: 19px 0 0 0;
+}
+
+#top-bar	{
+	position: fixed;
+	top: 0;
+	height: 110px;
+	width: 100%;
+	background-image: url(../graphics/backgrounds/top-marble.png);
+	z-index: 20;
+}
+
+/* =========== ROTATING IMAGE STYLES =========== */
+
+.wrapper {
+	position: relative;
+	padding: 0;
+	width: 1000px;
+	min-height: 500px;
+}
+
+.rotating-image	{
+	position: relative;
+  	padding: 0;
+	width: 1000px;
+	height: 638px;
+}
+
+.wrapper h1, .wrapper h2	{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: georgia,'Playfair Display',serif !important;
+	font-weight: normal !important;
+	color: #fff;
+	font-size: 36px !important;
+	letter-spacing: 0.025em;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+	padding: 20px 10px 20px 17px !important;
+	margin: 0 !important;
+	z-index: 10;
+	background-image: none !important;
+}
+
+.callbacks_container {
+  /* margin-bottom: 50px; */
+  position: relative;
+  /* float: left; */
+  /* width: 1000px; */
+  }
+
+.callbacks .caption {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  font-size: 20px;
+  font-family: 'PT Sans Narrow';
+  /* text-shadow: none; */
+  color: #fff;
+  background-color: #5A2B81;
+  background-color: rgba(89, 44, 130, .5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 20px 20px 15px !important;
+  margin: 0 !important;
+  /* max-width: none; */
+  }
+
+body.blue .rslides .caption, .about-caption .caption	{
+	background-color: rgb(41, 140, 218);
+	background-color: rgba(41, 140, 218, .5);
+}
+
+body.brown .rslides .caption	{
+	background-color: rgb(140, 118, 81);
+	background-color: rgba(140, 118, 81, .5);
+}
+
+body.cool-gray .rslides .caption	{
+	background-color: rgb(76, 76, 123);
+	background-color: rgba(76, 76, 123, .5);
+}
+
+body.gray .rslides .caption	{
+	background-color: rgb(107, 107, 109);
+	background-color: rgba(107, 107, 109, .5);
+}
+
+body.green .rslides .caption/* , .academics-caption .caption */	{
+	background-color: rgb(89, 119, 36);
+	background-color: rgba(89, 119, 36, .5);
+}
+
+body.gold .rslides .caption	{
+	background-color: rgb(204, 153, 0);
+	background-color: rgba(204, 153, 0, .5);
+}
+
+body.light-teal .rslides .caption	{
+	background-color: rgb(51, 153, 153);
+	background-color: rgba(51, 153, 153, .5);
+}
+
+body.orange-red .rslides .caption	{
+	background-color: rgb(250, 65, 55);
+	background-color: rgba(250, 65, 55, .5);
+}
+
+body.orange .rslides .caption	{
+	background-color: rgb(233, 74, 40);
+	background-color: rgba(233, 74, 40, .5);
+}
+
+body.periwinkle .rslides .caption	{
+	background-color: rgb(138, 153, 214);
+	background-color: rgba(138, 153, 214, .5);
+}
+
+body.red .rslides .caption	{
+	background-color: rgb(164, 46, 53);
+	background-color: rgba(164, 46, 53, .5);
+}
+
+body.teal .rslides .caption/* , .admission-caption .caption */	{
+	background-color: rgb(60, 116, 151);
+	background-color: rgba(60, 116, 151, .5);
+}
+
+body.violet .rslides .caption/* , .studentlife-caption .caption */	{
+	background-color: rgb(149, 45, 88);
+	background-color: rgba(149, 45, 88, .5);
+}
+
+body.warm-gray .rslides .caption	{
+	background-color: rgb(110, 78, 80);
+	background-color: rgba(110, 78, 80, .5);
+}
+
+body.msmc-purple .rslides .caption	{
+	background-color: rgb(51, 51, 153);
+	background-color: rgba(51, 51, 153, .5);
+}
+
+body.msmc-purple-90 .rslides .caption	{
+	background-color: rgb(71, 71, 163);
+	background-color: rgba(71, 71, 163, .5);
+}
+
+body.msmc-purple-80 .rslides .caption	{
+	background-color: rgb(92, 92, 173);
+	background-color: rgba(92, 92, 173, .5);
+}
+
+body.msmc-purple-70 .rslides .caption	{
+	background-color: rgb(112, 112, 183);
+	background-color: rgba(112, 112, 183, .5);
+}
+
+.callbacks_nav {
+	position: absolute;
+ 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+ 	top: 440px;
+ 	left: 936px;
+ 	z-index: 3;
+ 	text-indent: -9999px;
+ 	overflow: hidden;
+ 	text-decoration: none;
+ 	height: 60px;
+ 	width: 38px;
+ 	background: transparent url("../graphics/rotating-images/themes.png") no-repeat left top;
+ }
+
+.callbacks_nav.next {
+	left: auto;
+	background-position: right top;
+	right: 0;
+}
+
+@media (max-width: 1040px) {
+	#tip-top-content {
+		width: auto;
+		padding-right: 30px;
+	}
+	#top-content {
+		width: auto;
+		padding: 0 30px;
+	}
+}
+@media (min-width: 880px) {
+	#tip-top-container {
+		display: block !important;
+	}
+}
+@media (max-width: 880px) {
+	#top-space {
+		padding-bottom: 0;
+	}
+	#top-nav {
+		height: auto;
+		border-bottom: none;
+		position: static;
+	}
+	#tip-top-container {
+		position: absolute;
+		top: 34px;
+		z-index: 50;
+		border-top: 1px solid #636363;
+		border-bottom: 1px solid #636363;
+		display: none;
+	}
+	#tip-top-container #tip-top-content {
+		text-align: center;
+		padding-right: 0;
+	}
+	#tip-top-container #tip-top-content span {
+		display: none;
+	}
+	#tip-top-container #tip-top-content span + span {
+		display: inline;
+	}
+	#top-content {
+		height: auto;
+		padding: 0;
+	}
+	#top-content #top-logo {
+		margin: 19px auto 0;
+		width: 206px;
+		float: none;
+	}
+}
+
+/*        Tablet Layout: 720px.
+
+------------------------------------------------------------
+
+		*/
+
+/*
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.callbacks_container {
+		width: 720px!important;
+	}
+}
+*/
+
+
+/*        Mobile Layout: 320px.
+
+------------------------------------------------------------
+
+*/
+
+/*
+@media only screen and (max-width: 767px) { 
+
+     .callbacks_container {
+		float: none;
+	}
+
+	
+}
+*/
+
+
+/*        Wide Mobile Layout: 480px.
+		
+------------------------------------------------------------
+
+*/
+
+/*
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+   
+	
+}
+*/
